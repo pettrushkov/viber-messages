@@ -4,9 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Finconsultant</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Viber</title>
 </head>
 <body>
     
+  <header class="header">
+    <p class="header__title">Viber</p>
+    <div class="header__row">
+      <div class="header__nav-overlay">
+        <div class="header__buttons">
+          <div class="header__buttons-prev"></div>
+          <div class="header__buttons-next"></div>
+        </div>
+        <ul class="header__menu">
+          <li><a href="#">Просмотр</a></li>
+          <li><a href="#">Чаты</a></li>
+          <li><a href="#">Звонки</a></li>
+          <li><a href="#">Параметры</a></li>
+          <li><a href="#">Справка</a></li>
+        </ul>
+      </div>
+      <div class="header__balance">
+        <a href="#" class="current">Нет средств</a>
+        <a href="#" class="replenish"><span>Пополнить</span></a>
+        <a href="#" class="settings"></a>
+      </div>
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="main__row">
+      <div class="main__navigation">
+        <div class="tabs">
+          <a href="#" class="all-chats drop-down active"></a>
+          <a href="#" class="contacts"></a>
+          <a href="#" class="additional"></a>
+        </div>
+        <div class="search-block">
+          <input type="search" placeholder="Поиск...">
+          <a href="#" class="create-chat"></a>
+        </div>
+        <div class="chat-type">
+          <a href="#" class="chats">Чаты</a>
+          <a href="#" class="messages">Сообщения</a>
+        </div>
+        <a href="#" class="drop-down">Чаты</a>
+        <a href="#" class="drop-down">Контакты</a>
+      </div>
+      <div class="main__content">
+        <div class="user-controls">
+          <div class="user-info">
+            <img src="./img/viber-logo.png" alt="">
+            <p>Viber</p>
+          </div>
+          <div class="user-buttons">
+            <a href="#" class="add-user"></a>
+            <a href="#" class="call-user"></a>
+            <a href="#" class="video-user"></a>
+            <a href="#" class="info-user"></a>
+          </div>
+        </div>
+        <div class="messages-area">
+          <div class="message-input">
+            <div class="message-input-controls">
+              <a href="#" class="attachment"></a>
+              <a href="#" class="gif"></a>
+              <a href="#" class="sticker"></a>
+            </div>
+            <textarea placeholder="Напишите сообщение..."></textarea>
+            <a href="#" class="voice-message"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
 </body>
 </html>
